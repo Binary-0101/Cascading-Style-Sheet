@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #A25772;
+}
+.title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container div{
+    width: 200px;
+    margin:10px;
+    flex-basis: 25%;
+}
+.container p{
+    color: white;
+}
