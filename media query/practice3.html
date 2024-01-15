@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .one{
+            background-color: greenyellow;
+            margin: 5px;
+            flex-basis: 20%;
+            height: 100px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-width:800px){
+            .one{
+                flex-basis: 40%;
+            }
+        }
+    </style>
+
+    <div class="container">
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+    </div>
+</body>
+</html>
